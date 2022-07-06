@@ -8,7 +8,8 @@
         "description": "Configures a default Data Collection Rule on the specified Log Analytics Workspace. The Default DCR is used, as of May 2022, with the Azure Monitor ingestion-time transformations feature. This feature is in private preview as of July 1, 2022",
         "metadata": {
             "version": "1.0.0-preview",
-            "category": "Monitoring"
+            "category": "Monitoring",
+            "preview": true
         },
         "parameters": {
             "DefaultDCRResourceID": {
